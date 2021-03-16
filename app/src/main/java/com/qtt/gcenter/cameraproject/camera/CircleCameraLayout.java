@@ -92,8 +92,8 @@ public class CircleCameraLayout extends FrameLayout implements Handler.Callback 
 
         mCamera = Camera.open(mCameraId);
         mCameraSize = Utils.getMaxSupportPreviewSize(mCamera);
-        mCameraView.setFaceDetectionListener(mFaceDetectionListener);
-        mCameraView.bindCamera(mCamera, mCameraSize, mCameraId);
+//        mCameraView.setFaceDetectionListener(mFaceDetectionListener);
+//        mCameraView.bindCamera(mCamera, mCameraSize, mCameraId);
 
     }
 
